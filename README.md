@@ -1,113 +1,73 @@
-Experiment 1: Introduction to Python
-Aim:
-To understand the basics of Python programming and write simple programs using variables, data types, operators, input/output statements, mathematical functions, and conditional statements.
+#**EXPERIMENT 1 : INTRODUCTION TO PYTHON**
 
-Theory:
-Python is a high-level, interpreted, and user-friendly programming language widely used for beginners as well as professionals. This experiment introduces fundamental Python concepts through multiple small programs. Each code cell demonstrates a specific concept, explained below:
+##*AIM*: **To understand the Basics of Python Programming and write simple programs**
 
-**Cell 1: Variable Assignment and Printing**
+*THEORY*:
 
-    In this cell, multiple variables (x, y, z) are assigned string values in a single line. The print() function is used to display multiple variables at once as well as an individual variable. This demonstrates:
-    Multiple variable assignment
-    Use of the print() function
-    Basic string handling in Python
+        Python is a high-level, interpreted, and object-oriented programming language known for its simplicity and readability. It allows programmers to write clear and logical code for both small and large               applications. Python supports various data types such as integers, floating-point numbers, strings, and booleans, which are used to store and manipulate data efficiently. Multiple assignment allows                assigning values to multiple variables in a single line. The type() function is used to determine the data type of a variable. Arithmetic operators such as addition (+), subtraction (-), multiplication            (), division (/), and exponentiation (*) perform mathematical calculations. The input() function is used to accept user input, which is typecast into required data types. The math library provides                 mathematical constants and functions such as pi and log10(). Conditional statements (if-else) help in decision-making by comparing values and executing appropriate code blocks.
 
-**Cell 2: Data Types in Python**
+*ALGORITHM*:
 
-Here, variables of different data types are created:
+*Program 1: Variable Declaration and Printing*
+        
+        start
+        Declare string variables and assign values to them.
+        Assign multiple values to multiple variables using a single statement.
+        Display the values of variables using the print() function with appropriate separators.
+        stop
 
-int (integer)
+*Program 2: Data Types*
 
-float (decimal number)
+        start
+        Declare variables of different data types such as integer, float, string, and boolean.
+        Use the type() function to identify and display the data type of each variable.
+        stop
 
-str (string)
+*Program 3: Mathematical Operations*
 
-bool (boolean value)
+           start
+           Declare numeric variables.
+           Perform arithmetic operations such as addition, subtraction, multiplication,division, and exponentiation.
+           Store the results in variables and display the output.
+           stop
 
-The type() function is used to identify and display the data type of each variable. This helps in understanding Python’s dynamic typing system, where the data type is assigned automatically based on the value.
+*Program 4: User Input and Arithmetic Operations*
 
-**Cell 3: Arithmetic Operations**
+           start
+           Accept two integer values from the user using the input() function.
+           Convert the input values into integers.
+           Display the entered values.
+           Perform arithmetic operations on the user-provided inputs.
+           Display the results.
+           stop
 
-Two numeric variables are defined and basic arithmetic operations are performed:
+*Program 5: Area of a Circle*
 
-Addition
+           start
+           Import the math module.
+           Accept the radius of the circle from the user.
+           Calculate the area using the formula:
+           Area = π × r²
+           Display the calculated area of the circle.
+           stop
 
-Subtraction
+*Program 6: Logarithmic Calculation*
 
-Multiplication
+            start
+            Import the math module.
+            Accept a number from the user.
+            Calculate the base-10 logarithm of the number using math.log10().
+            Display the logarithmic value.
+            stop
 
-Division
+*Program 7: Comparison Using Conditional Statements*
 
-Exponentiation
+            start
+            Accept two numbers from the user.
+            Compare the two numbers using an if-else statement.
+            Display which number is greater or if both numbers are equal.
+            stop
 
-This cell demonstrates Python’s arithmetic operators and how mathematical expressions are evaluated and displayed using print().
+*CONCLUSION:*
 
-**Cell 4: Arithmetic Operations with User Input**
-
-This cell is similar to the previous one, but values are taken from the user using the input() function. The inputs are converted to integers using int() to allow mathematical operations. This introduces:
-
-User interaction
-
-Type conversion
-
-Dynamic input handling
-
-**Cell 5: Area of a Circle (Using Formula)**
-
-The radius of a circle is taken as user input and converted into a float. The area is calculated using the formula:
-
-Area=3.14×r
-2
-
-This cell demonstrates:
-
-Mathematical formulas in Python
-
-Use of float values
-
-Practical application of arithmetic operations
-**
-Cell 6: Using Math Module**
-
-The math module is imported to access predefined mathematical functions. The value of π (math.pi) is used for more accurate area calculation, and math.log10() is used to calculate the logarithm of the radius. This introduces:
-
-Importing libraries
-
-Built-in mathematical functions
-
-More precise computations
-
-**Cell 7: Logarithmic Functions**
-
-This cell calculates:
-
-Area of a circle using math.pi
-
-Base-10 logarithm of the radius using math.log10()
-
-It highlights Python’s capability to handle advanced mathematical operations efficiently.
-
-**Cell 8: Conditional Statements**
-
-Two variables are compared using an if-else statement. Based on the condition, an appropriate message is printed. This demonstrates:
-
-Decision-making in Python
-
-Use of relational operators
-
-Control flow using if-else
-
-Algorithm:
-1. Start the program.
-2. Assign values to variables and display them using the print() function.
-3. Declare variables of different data types and identify their types using type().
-4. Perform arithmetic operations on predefined values.
-5. Accept user input and perform arithmetic calculations.
-6. Calculate the area of a circle using a fixed value of π.
-7. Import the math module and use built-in mathematical functions.
-8. Implement conditional statements to compare values.
-9. Display all results.
-10. Stop the program.
-
-Conclusion:
-In this experiment, the fundamentals of Python programming were successfully studied and implemented. Concepts such as variable declaration, data types, arithmetic operations, user input, mathematical functions, and conditional statements were clearly understood through practical examples. This experiment builds a strong foundation for advanced Python programming and problem-solving.
+        This experiment successfully introduced the fundamental concepts of Python programming. Through this experiment, the use of variables, data types, arithmetic operations, user input handling, mathematical          functions, and conditional statements was understood and implemented effectively. The practical implementation of these concepts provided a strong foundation in Python programming and enhanced logical             thinking skills, which are essential for developing more complex programs in future applications.
