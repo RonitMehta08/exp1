@@ -7,13 +7,10 @@ Python is a high-level, interpreted, and user-friendly programming language wide
 
 **Cell 1: Variable Assignment and Printing**
 
-In this cell, multiple variables (x, y, z) are assigned string values in a single line. The print() function is used to display multiple variables at once as well as an individual variable. This demonstrates:
-
-Multiple variable assignment
-
-Use of the print() function
-
-Basic string handling in Python
+    In this cell, multiple variables (x, y, z) are assigned string values in a single line. The print() function is used to display multiple variables at once as well as an individual variable. This demonstrates:
+    Multiple variable assignment
+    Use of the print() function
+    Basic string handling in Python
 
 **Cell 2: Data Types in Python**
 
