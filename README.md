@@ -59,12 +59,6 @@ Cell 5: Area of a Circle (Using Formula)
 
 The radius of a circle is taken as user input and converted into a float. The area is calculated using the formula:
 
-Area
-=
-3.14
-×
-𝑟
-2
 Area=3.14×r
 2
 
