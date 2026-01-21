@@ -1,71 +1,155 @@
-#**EXPERIMENT 1 : INTRODUCTION TO PYTHON**
+# 📘 Introduction to Python – Notebook Journal
 
-##*AIM*: **To understand the Basics of Python Programming and write simple programs**
+**File:** `EXPERIMENT_1_Introduction_to_Python.ipynb`  
+**Experiment Title:** Introduction to Python  
+**Author:** Ronit Mehta  
+**PRN:** 25070123094  
 
-*THEORY*:
-Python is a high-level, interpreted, and object-oriented programming language known for its simplicity and readability, enabling programmers to write clear and logical code for both small and large applications. It supports various built-in data types such as integers, floating-point numbers, strings, and booleans for efficient data storage and manipulation, and the type() function is used to identify the data type of a variable. Python allows multiple assignment, where values can be assigned to multiple variables in a single statement. Arithmetic operators like addition (+), subtraction (-), multiplication (*), division (/), and exponentiation (**) are used to perform mathematical calculations. The input() function is used to accept user input, which is then typecast into required data types such as int() or float(). Python also provides the built-in math module that includes mathematical constants and functions like math.pi and math.log10() for advanced calculations. Conditional statements using if and else are used for decision-making by comparing values and executing appropriate code blocks based on specified conditions.
-*ALGORITHM*:
+---
 
-*Program 1: Variable Declaration and Printing*
-        
-        start
-        Declare string variables and assign values to them.
-        Assign multiple values to multiple variables using a single statement.
-        Display the values of variables using the print() function with appropriate separators.
-        stop
+## 🎯 Aim
+To study the **basic concepts of Python programming**, including variables, data types, input/output operations, arithmetic operations, mathematical functions, and conditional statements.
 
-*Program 2: Data Types*
+---
 
-        start
-        Declare variables of different data types such as integer, float, string, and boolean.
-        Use the type() function to identify and display the data type of each variable.
-        stop
+## 📖 Theory
+Python is a **high-level, interpreted, and dynamically typed programming language** known for its simplicity and readability.
 
-*Program 3: Mathematical Operations*
+Key concepts covered in this experiment:
+- Variable declaration and assignment
+- Printing output using `print()`
+- Data types and type checking using `type()`
+- Arithmetic operations
+- User input using `input()`
+- Mathematical operations using the `math` module
+- Conditional statements using `if–else`
 
-           start
-           Declare numeric variables.
-           Perform arithmetic operations such as addition, subtraction, multiplication,division, and exponentiation.
-           Store the results in variables and display the output.
-           stop
+Python is widely used in data science, web development, automation, and artificial intelligence due to its rich libraries and ease of use.
 
-*Program 4: User Input and Arithmetic Operations*
+---
 
-           start
-           Accept two integer values from the user using the input() function.
-           Convert the input values into integers.
-           Display the entered values.
-           Perform arithmetic operations on the user-provided inputs.
-           Display the results.
-           stop
+## 🧠 Algorithm (Cell-wise)
 
-*Program 5: Area of a Circle*
+### Cell 1 – Student Details
+1. Display student name and PRN using markdown.
 
-           start
-           Import the math module.
-           Accept the radius of the circle from the user.
-           Calculate the area using the formula:
-           Area = π × r²
-           Display the calculated area of the circle.
-           stop
+---
 
-*Program 6: Logarithmic Calculation*
+### Cell 2 – Experiment Title
+1. Display the title: *Introduction to Python*.
 
-            start
-            Import the math module.
-            Accept a number from the user.
-            Calculate the base-10 logarithm of the number using math.log10().
-            Display the logarithmic value.
-            stop
+---
 
-*Program 7: Comparison Using Conditional Statements*
+### Cell 3 – Variable Assignment and Printing
+**Algorithm**
+1. Assign multiple values to multiple variables in a single statement.
+2. Print all variables together.
+3. Print a single variable.
 
-            start
-            Accept two numbers from the user.
-            Compare the two numbers using an if-else statement.
-            Display which number is greater or if both numbers are equal.
-            stop
+**Output**
+orange apple banana
+orange
 
-*CONCLUSION:*
+---
 
-        This experiment successfully introduced the fundamental concepts of Python programming. Through this experiment, the use of variables, data types, arithmetic operations, user input handling, mathematical          functions, and conditional statements was understood and implemented effectively. The practical implementation of these concepts provided a strong foundation in Python programming and enhanced logical             thinking skills, which are essential for developing more complex programs in future applications.
+### Cell 4 – Data Types
+**Algorithm**
+1. Assign integer, float, string, and boolean values to variables.
+2. Use `type()` to display the data type of each variable.
+
+**Output**
+<class 'int'>
+<class 'float'>
+<class 'str'>
+
+
+---
+
+### Cell 5 – Arithmetic Operations
+**Algorithm**
+1. Assign values to two variables.
+2. Perform addition, subtraction, and multiplication.
+3. Display results using `print()`.
+
+**Output**
+add = 15
+subt = 5
+mult = 50
+
+---
+
+### Cell 6 – User Input and Addition
+**Algorithm**
+1. Accept two integer values from the user.
+2. Add the values.
+3. Display the result.
+
+**Output (example)**
+Enter Value of X: 5
+Enter Value of Y: 6
+sum = 11
+
+---
+
+### Cell 7 – Area of a Circle (Basic Formula)
+**Algorithm**
+1. Accept radius as user input.
+2. Calculate area using formula:  
+   `area = 3.14 × r²`
+3. Display the area.
+
+**Output (example)**
+Enter Radius: 7
+153.86
+
+---
+
+### Cell 8 – Mathematical Functions Using `math` Module
+**Algorithm**
+1. Import the `math` module.
+2. Accept radius as input.
+3. Use:
+   - `math.log10()`
+   - `math.pi`
+4. Perform and display calculations.
+
+**Output (example)**
+Enter Radius: 10
+2.302585092994046
+31.41592653589793
+
+---
+
+### Cell 9 – Logarithmic Functions
+**Algorithm**
+1. Import the `math` module.
+2. Calculate natural logarithm using `math.log()`.
+3. Calculate base-10 logarithm using `math.log10()`.
+
+**Output**
+0.9162907318741551
+2.0
+
+
+---
+
+### Cell 10 – Conditional Statement (if–else)
+**Algorithm**
+1. Assign values to two variables.
+2. Compare values using an `if–else` condition.
+3. Display appropriate output based on condition.
+
+**Output**
+b is greater than a
+
+---
+
+## ✅ Conclusion
+This experiment introduced the **fundamental concepts of Python programming**, including:
+- Variable declaration and data types
+- Input and output handling
+- Arithmetic and mathematical operations
+- Use of built-in and library functions
+- Conditional logic using `if–else`
+
+Understanding these basics forms a strong foundation for advanced Python programming and real-world application dev
